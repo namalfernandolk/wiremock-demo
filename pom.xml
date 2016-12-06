@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>wiremock-demo</groupId>
+  <artifactId>wiremock-demo</artifactId>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
+  <name>Wiremock Demo Project</name>
+  <description>Wiremock Demo Project</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.github.tomakehurst</groupId>
+  		<artifactId>wiremock</artifactId>
+  		<version>2.4.1</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
+</project>
